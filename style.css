@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 860px;
+    min-height: 860px;
+    margin: 0 auto;
+    background-image: url(img/—Pngtree—colorful\ arrow\ collection\ lego\ style_6632613.png);
+    background-size: 100%;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(43, 129, 94, 0.5);
+}
+
+.btn-cart,
+.btn-main {
+    background-color: transparent;
+    padding: 5px 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.icon-cart {
+    height: 100px;
+    display: block;
+
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+    margin-top: 30px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    min-width: 150px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.buy-btn {
+    background-color: #6a8f70;
+    padding: 5px 30px;
+    border: 1px solid transparent;
+    color: #fafafa;
+    border-radius: 5px;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: transparent;
+    border-color: #fafafa;
+    color: #6a8f70;
+}
